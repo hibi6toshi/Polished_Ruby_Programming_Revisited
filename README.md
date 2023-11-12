@@ -1,0 +1,2 @@
+# Polished_Ruby_Programming_Revisited
+研鑽Rubyの復習用Repo
