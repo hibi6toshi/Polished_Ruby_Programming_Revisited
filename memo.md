@@ -38,3 +38,19 @@ class TimeFilter
   end
 end
 ```
+
+4 章
+
+```
+def foo(*args, **kwargs)
+  [args, kwargs]
+end
+
+# キーワードがキーワードとして扱われている。
+foo(bar: 1)
+# -> [[], [bar: 1]]
+
+# ハッシュは位置引数として扱われる
+foo({ bar: 1 })
+# -> [[{:bar=>1}], {}]
+```
